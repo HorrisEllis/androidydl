@@ -19,20 +19,6 @@ X='\033[0m' > /dev/null 2>&1; #Closer
 apt update -y
 clear
 
-echo -e $R"_____.___.              __       ___.                        .___.__  " $N
-sleep 0.3
-echo -e $R"\__  |   | ____  __ ___/  |_ __ _\_ |__   ____             __| _/|  |  " $N
-sleep 0.3
-echo -e $R" /   |   |/  _ \|  |  \   __\  |  \ __ \_/ __ \   ______  / __ | |  |  " $N
-sleep 0.3
-echo -e $R" \____   (  <_> )  |  /|  | |  |  / \_\ \  ___/  /_____/ / /_/ | |  |__" $N
-sleep 0.3
-echo -e $R" / ______|\____/|____/ |__| |____/|___  /\___  >         \____ | |____/" $N
-sleep 0.3
-echo -e $R" \/                                   \/     \/               \/       " $N
-
-sleep 1.5
-
 echo -e $Y $L"YouTube-dl Installer By"  $R "Shuk" $N
 
 echo -e $Y $L"Setting Up Storage" $N
