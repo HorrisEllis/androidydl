@@ -55,6 +55,7 @@ echo -e $Y $L "Creating youtube-dl config..." $N
 sleep 1.5
 
 echo -e $Y $L "Getting config file..." $N
+		rm -rf /data/data/com.termux/files/home/.config/youtube-dl
 		wget https://raw.githubusercontent.com/HorrisEllis/androidydl/master/config -P /data/data/com.termux/files/home/.config/youtube-dl
 
 echo -e $Y $L "Creating bin folder..." $N
@@ -62,6 +63,7 @@ echo -e $Y $L "Creating bin folder..." $N
 sleep 1.5
 
 echo -e $Y $L "Getting files..." $N
+		rm rf /data/data/com.termux/files/home/bin
 		wget https://raw.githubusercontent.com/HorrisEllis/androidydl/master/termux-url-opener -P /data/data/com.termux/files/home/bin
 		clear
 		
