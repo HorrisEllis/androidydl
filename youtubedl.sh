@@ -34,6 +34,10 @@ sleep 1.5
 
 echo -e $Y $L"YouTube-dl Installer By"  $R "Shuk" $N
 
+echo -e $Y $L"Setting Up Storage" $N
+
+		termux-setup-storage
+
 echo -e $Y $L"Installing python..." $N
 
 		pkg install python -y
