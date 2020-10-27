@@ -48,8 +48,6 @@ echo -e $Y $L"Installing YouTube-dl..." $N
 echo -e $Y $L"Setting up configs..." $N
 sleep 2
 
-echo -e $Y $L "Creating Youtube folder..." $N
-		mkdir /data/data/com.termux/files/home/storage/shared/Youtubedl
 sleep 1.5
 
 echo -e $Y $L "Creating youtube-dl config..." $N
