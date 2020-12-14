@@ -1,4 +1,4 @@
-# androidydl
+# androidydl-music
 Youtube-DL for android with termux
 
 How to use:
